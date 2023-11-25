@@ -38,6 +38,11 @@ export class StartPage implements OnInit {
       icon:'card-outline',
       name:'Cards',
       redirectTo:'/card'
+    },
+    {
+      icon:'checkmark-circle-outline',
+      name:'Checkboxs',
+      redirectTo:'/check'
     }
   ];
 
