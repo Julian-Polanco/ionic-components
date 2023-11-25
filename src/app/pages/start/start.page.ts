@@ -28,6 +28,11 @@ export class StartPage implements OnInit {
       icon:'beaker-outline',
       name:'Avatar',
       redirectTo:'/avatar'
+    },
+    {
+      icon:'radio-button-off-outline',
+      name:'Buttons',
+      redirectTo:'/buttons'
     }
   ];
 

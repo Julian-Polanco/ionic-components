@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" color="primary"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="primary">Buttons</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="onClick()" color="danger">
+        <ion-icon slot="icon-only" [name]="favorite ? 'heart-outline':'heart'"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <!-- Botón por defecto -->
+  <ion-button>Default Button</ion-button>
+
+  <!-- Botones con colores de anclaje -->
+  <ion-button color="primary">Primary Button</ion-button>
+  <ion-button color="secondary">Secondary Button</ion-button>
+  <ion-button color="tertiary">Tertiary Button</ion-button>
+  <ion-button color="success">Success Button</ion-button>
+  <ion-button color="warning">Warning Button</ion-button>
+  <ion-button color="danger">Danger Button</ion-button>
+  <ion-button color="light">Light Button</ion-button>
+  <ion-button color="medium">Medium Button</ion-button>
+  <ion-button color="dark">Dark Button</ion-button>
+
+  <!-- Botón expandible -->
+  <ion-button expand="full">Full Width Button</ion-button>
+
+  <!-- Botón redondo -->
+  <ion-button shape="round">Round Button</ion-button>
+
+  <!-- Botones de relleno -->
+  <ion-button fill="solid">Solid Fill Button</ion-button>
+  <ion-button fill="outline">Outline Fill Button</ion-button>
+  <ion-button fill="clear">Clear Fill Button</ion-button>
+  
+</ion-content>
