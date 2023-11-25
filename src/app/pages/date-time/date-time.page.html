@@ -9,5 +9,15 @@
 
     </ion-item>
 
+<ion-item>
+  <ion-datetime-button datetime="time"></ion-datetime-button>
+
+  <ion-modal [keepContentsMounted]="true">
+    <ng-template>
+      <ion-datetime showDefaultButtons="true" presentation="date" id="time"></ion-datetime>
+    </ng-template>
+  </ion-modal>
+</ion-item>
+    
   </ion-list>
 </ion-content>
