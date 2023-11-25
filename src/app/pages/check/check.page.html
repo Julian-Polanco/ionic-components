@@ -1,0 +1,14 @@
+<app-header title="Check Box"></app-header>
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let item of data"
+    (click)="onClick(item)">
+      <ion-checkbox labelPlacement="end" justify="start" [color]="item.name"
+        [(ngModel)]="item.selected">{{item.name}}</ion-checkbox>
+    </ion-item>
+  </ion-list>
+
+  <ion-button (click)="viewData()" expand="block">
+    Click me
+  </ion-button>
+</ion-content>
