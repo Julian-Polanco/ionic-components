@@ -48,6 +48,11 @@ export class StartPage implements OnInit {
       icon:'calendar-outline',
       name:'Date time',
       redirectTo:'/date-time'
+    },
+    {
+      icon:'car-outline',
+      name:'Fab',
+      redirectTo:'/fab'
     }
   ];
 
