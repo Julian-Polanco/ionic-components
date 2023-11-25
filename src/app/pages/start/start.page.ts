@@ -43,6 +43,11 @@ export class StartPage implements OnInit {
       icon:'checkmark-circle-outline',
       name:'Checkboxs',
       redirectTo:'/check'
+    },
+    {
+      icon:'calendar-outline',
+      name:'Date time',
+      redirectTo:'/date-time'
     }
   ];
 
