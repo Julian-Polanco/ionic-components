@@ -33,6 +33,11 @@ export class StartPage implements OnInit {
       icon:'radio-button-off-outline',
       name:'Buttons',
       redirectTo:'/buttons'
+    },
+    {
+      icon:'card-outline',
+      name:'Cards',
+      redirectTo:'/card'
     }
   ];
 
