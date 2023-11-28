@@ -73,6 +73,11 @@ export class StartPage implements OnInit {
       icon:'list-outline',
       name:'List - Sliding',
       redirectTo:'/list'
+    },
+    {
+      icon:'reorder-three-outline',
+      name:'Reorder',
+      redirectTo:'/list-reorder'
     }
   ];
 
