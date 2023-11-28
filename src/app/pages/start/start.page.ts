@@ -53,6 +53,11 @@ export class StartPage implements OnInit {
       icon:'car-outline',
       name:'Fab',
       redirectTo:'/fab'
+    },
+    {
+      icon:'grid-outline',
+      name:'Grid',
+      redirectTo:'/grid'
     }
   ];
 
