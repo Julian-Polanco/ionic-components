@@ -58,6 +58,16 @@ export class StartPage implements OnInit {
       icon:'grid-outline',
       name:'Grid',
       redirectTo:'/grid'
+    },
+    {
+      icon:'infinite-outline',
+      name:'Infinite Scroll',
+      redirectTo:'/infinite'
+    },
+    {
+      icon:'hammer-outline',
+      name:'Input forms',
+      redirectTo:'/input'
     }
   ];
 
