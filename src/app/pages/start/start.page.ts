@@ -68,6 +68,11 @@ export class StartPage implements OnInit {
       icon:'hammer-outline',
       name:'Input forms',
       redirectTo:'/input'
+    },
+    {
+      icon:'list-outline',
+      name:'List - Sliding',
+      redirectTo:'/list'
     }
   ];
 
