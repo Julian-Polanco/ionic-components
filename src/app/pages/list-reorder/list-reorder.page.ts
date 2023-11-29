@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ListReorderPage implements OnInit {
 
   characters: string[] = ['Aquaman', 'Superman', 'Batman', 'Flash', 'Mujer Maravilla']; 
+  isReorderDisabled = true;
 
   constructor() { }
 
@@ -19,6 +20,10 @@ export class ListReorderPage implements OnInit {
     this.characters.splice(event.detail.to, 0, itemMover);
     console.log(this.characters);
     event.detail.complete();
+  }
+
+  toggleList() {
+    this.isReorderDisabled = !this.isReorderDisabled;
   }
 
 }

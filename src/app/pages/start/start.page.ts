@@ -78,6 +78,11 @@ export class StartPage implements OnInit {
       icon:'reorder-three-outline',
       name:'Reorder',
       redirectTo:'/list-reorder'
+    },
+    {
+      icon:'refresh-circle-outline',
+      name:'Loading',
+      redirectTo:'/loading'
     }
   ];
 
