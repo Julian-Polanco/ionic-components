@@ -76,6 +76,10 @@ const routes: Routes = [
     path: 'modal-info',
     loadChildren: () => import('./pages/modal-info/modal-info.module').then( m => m.ModalInfoPageModule)
   },
+  {
+    path: 'pop-over',
+    loadChildren: () => import('./pages/pop-over/pop-over.module').then( m => m.PopOverPageModule)
+  },
 ];
 
 @NgModule({
