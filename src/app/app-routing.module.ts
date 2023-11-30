@@ -80,6 +80,10 @@ const routes: Routes = [
     path: 'pop-over',
     loadChildren: () => import('./pages/pop-over/pop-over.module').then( m => m.PopOverPageModule)
   },
+  {
+    path: 'progress',
+    loadChildren: () => import('./pages/progress/progress.module').then( m => m.ProgressPageModule)
+  },
 ];
 
 @NgModule({
