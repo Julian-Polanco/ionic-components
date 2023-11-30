@@ -1,0 +1,16 @@
+<ion-content>
+  <swiper-container
+  [pagination]="true">
+    <swiper-slide *ngFor="let slide of slides">
+    <ion-card>
+      <img [src]="slide.img" class="slide-image"/>
+      <ion-card-header>
+        <ion-card-subtitle>{{slide.titulo}}</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        {{slide.desc}}
+      </ion-card-content>
+    </ion-card>
+    </swiper-slide>
+  </swiper-container>
+</ion-content>
