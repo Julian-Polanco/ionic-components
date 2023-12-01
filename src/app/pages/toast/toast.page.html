@@ -1,0 +1,18 @@
+<app-header title="Toast"></app-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-button expand="block" id="open-toast-with-options">Open Toast With Options</ion-button>
+  <ion-toast
+    trigger="open-toast-with-options"
+    message="Hello World!"
+    [duration]="3000"
+    [buttons]="toastButtons"
+    (didDismiss)="setRoleMessage($event)"
+  ></ion-toast>
+  <ion-button expand="block" (click)="presentToast('bottom')">Present Toast At the Bottom</ion-button>
+
+
+
+
+  
+</ion-content>
